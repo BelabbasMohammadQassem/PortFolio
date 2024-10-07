@@ -11733,3 +11733,29 @@ html {
     left: -2vw;
   }
 }
+
+.btn-ofoot {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007BFF; /* Couleur bleue */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-ofoot:hover {
+  background-color: #0056b3; /* Couleur plus foncée au survol */
+  transform: translateY(-4px); /* Légère élévation au survol */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-ofoot:active {
+  background-color: #003f7f; /* Couleur encore plus foncée quand on clique */
+  transform: translateY(0); /* Retirer l'élévation pendant le clic */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
